@@ -8,7 +8,7 @@ void swap(char* a, char* b)
     *b = temp;
 }
  
-void permutation(string s,int i,int len)
+void permutation(char s[],int i,int len)
 {
     int j;
     if (i == len)
